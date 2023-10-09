@@ -5,34 +5,6 @@
     padding: 0px;
 }
 
-/*Colores*/
-/*Text*/
-p{
-    font-family: 'Lato', sans-serif;
-}
-
-h1{
-    font-family: 'Lato', sans-serif;
-    font-size: 3rem;
-    margin-left: 20px;
-    color: #1b2523;
-    font-weight: 600;
-}
-
-h2{
-    font-family: 'Lato', sans-serif;
-    font-size: 1.5rem;
-    color: #1b2523;
-    font-weight: 600;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-}
-
-a{
-    font-family: 'Lato', sans-serif;
-}
-
 /* Header */
 header {
     background-color: #81d8d0;
@@ -69,23 +41,100 @@ header {
   header .collapse .nav-item .nav-link:hover {
     color: rgb(222, 239, 248);
   }
-  
 
+/* Banner */
+ .banner {
+    background-image: url(../media/san-pedro-de-atacama-laguna-lejia.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 200px;
+    align-items: left;
+  }
+
+  .banner h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    margin-left: 20px;
+    color: white;
+    font-weight: 600;
+  }
+
+   .banner p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    text-shadow: 0px 0px 5px rgb(239, 239, 239);
+    background-color: rgba(249, 249, 249, 0.347);
+    padding: 2px 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px -1px rgba(164, 164, 164, 0.532);
+    margin-left: 20px;
+    width: 20rem;
+  }
+
+  .recomendaciones h2{
+        font-family: 'Lato', sans-serif;
+        font-size: 1.8rem;
+        color: slategrey;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+.grid-container {
+    margin-bottom: 30px;
+}
+
+.grid-items {
+    width: 100%;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.photo {
+    margin: 5px
+}
+
+.grid-container .grid-items {
+    display: grid;
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+.grid-container .grid-items {
+    grid-template-columns: repeat(1, 100%);
+}
+}
+
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .grid-container .grid-items {
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    .grid-container .grid-items {
+        grid-template-columns: repeat(3, 33.3%);
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+    .grid-container .grid-items {
+        grid-template-columns: repeat(4, 25%);
+    }
+    }
 
 
 footer{
     background-color: #81d8d0;
-}
-
-.paragraph-one{
-    margin-left: 20px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-size:13px;
-    width: 18rem;
-}
-
-.home-button{
-    margin-left: 20px;
-    font-size: 1rem;;
 }
