@@ -1,0 +1,6 @@
+/* Mobile */
+@media only screen and (max-width: 480px) {
+    .grid-container .grid-items {
+        grid-template-columns: repeat(1, 100%);
+    }
+    }

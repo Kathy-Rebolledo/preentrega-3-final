@@ -1,0 +1,19 @@
+//import reset
+@import'base/reset';
+
+//import layout
+@import'layout/header';
+@import'layout/footer';
+
+//import section-principal hmtl
+@import'layout/section-principal';
+
+//import media query
+@import'layout/mediamobile';
+@import'layout/mediatablet';
+@import'layout/mediadesktop';
+
+//import contacto.html
+@import'layout/contacto';
+
+
