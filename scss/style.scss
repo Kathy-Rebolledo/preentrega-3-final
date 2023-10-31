@@ -1,19 +1,27 @@
 //import reset
 @import'base/reset';
 
-//import layout
+//import header
 @import'layout/header';
-@import'layout/footer';
+
 
 //import section-principal hmtl
 @import'layout/section-principal';
+
+//import pages
+@import'layout/conoce-chile';
+@import'layout/verano';
+@import'layout/invierno';
+@import'layout/contacto';
+
+//import footer
+@import'layout/footer';
 
 //import media query
 @import'layout/mediamobile';
 @import'layout/mediatablet';
 @import'layout/mediadesktop';
 
-//import contacto.html
-@import'layout/contacto';
+
 
 
